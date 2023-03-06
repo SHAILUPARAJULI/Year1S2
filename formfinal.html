@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <style>
+        body{
+            background-color: rgb(225,225,225);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+        body h1{
+            color: green;    
+        }    
+        .man_container{background-color: white;
+        }
+        body .main_container{
+            background-color: white;
+            margin-top: 10px;
+            padding: 10px;
+            box-shadow: 4px 4px rgb(213, 213, 213);
+        }
+
+
+        .main_container select{
+            width: 100%;
+            height: 100%;
+            border-radius: 4px;
+            padding: 7px;
+        }
+
+
+        .main_container textarea{
+            width: 100%;
+            height: 100%;
+        }
+
+        .main_container #form1,#form2,#form3{
+            width: 95.5%; 
+            height: 100%;
+            border-radius: 4px;
+            padding: 7px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 >Herald College Kathmandu Survey Form </h1>
+    <div class="main_container">
+        <!-- Input tabs -->
+        <form >
+            <p>Name</p><input id="form1" type="text" name="Name" placeholder="Enter your name." required><br>
+            <p>Email</p><input id="form2" type="text" name="Email" placeholder="Enter your email." required><br>
+            <p>Age</p><input id="form3" type="text" name="Name" placeholder="Enter your age." required><br>
+        </form>
+        <!-- Drop down -->
+        <p>Which option best describes you?</p>
+        <select>
+            <option value="option1">Student</option>
+            <option value="option2">Teacher</option>
+            <option value="option3">Guardian</option>
+            <option value="option3">Visitor</option>
+        </select>
+    <!-- radio -->
+    <p>Would you recommend Herald College Kathmandu to a friend?</p>
+    <label>
+        <input type="radio" name="option" value="yes">
+        Yes
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="option" value="no">
+        No
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="option" value="both">
+        Maybe
+    </label>
+    <!-- checkbox -->
+    <p>Languages and Framework Known (Check all boxes that apply.)</p>
+    <label>
+        <input type="checkbox"  value="C">C <br>
+    </label>
+    <label>
+        <input type="checkbox"  value="C++">C++ <br>
+    </label>
+    <label>
+        <input type="checkbox"  value="C#">C# <br>
+    </label>
+    <label>
+        <input type="checkbox"  value="Java">Java<br>
+    </label>
+    <label>
+        <input type="checkbox"  value="Python">Python <br>
+    </label>
+    <label>
+        <input type="checkbox"  value="JavaScript">JavaScript<br>
+    </label>
+    <label>
+        <input type="checkbox"  value="React">React <br>
+    </label>
+    <label>
+        <input type="checkbox"  value="Angular">Angular <br>
+    </label>
+    <label>
+        <input type="checkbox"  value="Django">Django <br>
+    </label>
+    <label>
+        <input type="checkbox"  value="Spring">Spring <br>
+    </label>
+<!-- Suggestionbox -->
+    <p>Any comments or suggestions</p>
+        <textarea name="Message" placeholder="Your Message"></textarea><br>
+        <button  type="submit" style="color:black;background-color: green;font-size:large;font-weight: bold; width: 100%; height: 100%;padding: 10px;border-radius: 10px;border: none;margin-top: 5px;">Submit</button>
+    </div>
+</body>
+</html>

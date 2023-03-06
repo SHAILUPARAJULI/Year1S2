@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation List */
+
+.nav_main{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-top: 0px;
+}
+
+nav, ul, li, a {
+    text-decoration: none;
+    display:inline-block;
+    padding: 10px 32px;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    font-weight: bolder;
+}
+
+nav input{
+padding: 20px;
+border-radius: 10px;
+margin-right: 15px;
+margin-left: 20px;
+}
+
+/* home texts - img */
+
+.container #home .text_image{
+    background-color: #FEFBE9;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.container #home .text{
+    font-family:"Unbounded", cursive;
+
+}
+
+.text_image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 55%;
+}
+
+.img {
+    width: 40%;
+    margin-left: 5%;
+}
+
+.text_image img:hover{
+    transform: translateY(-15px);
+    transition: transform 0.8s ease;
+}
+
+.img img {
+    width: 80%;
+    height: auto;
+    justify-content: right;
+}
+
+.container #home #intro_para{
+    text-align: justify;
+    font-size: larger;
+    }
+
+.container #home .text h1{
+        color: red;
+}
+
+
+/* About section */
+.container #about .image_text{
+    background-color:red;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.container #about .text_about{
+    font-family:"Unbounded", cursive;
+}
+
+.image_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_about{
+    width: 55%;
+}
+
+.img_about{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.img_about img{
+    width: 80%;
+    height: auto;
+    justify-content:  right;
+}
+
+.img_about img:hover{
+    transform: translateY(-15px);
+    transition: transform 0.8s ease;
+}
+
+.container #about .text_about #about_para{
+    text-align: justify;
+    font-size: larger;
+    color: #FEFBE9
+}
+
+.container #about .text_about h1{
+    color: #FEFBE9;
+}
+.container #about .text_about a #button2{
+    padding: 30px;
+    border-radius: 40px;
+    background-color: lightcoral;
+    color: #FEFBE9;
+    font-family:"Unbounded", cursive;
+    font-weight: bold;
+    border-color: #FEFBE9;
+}
+
+/* services */
+.container #service {
+    background-color: #FEFBE9;
+    padding: 10px;
+}
+
+.container #service .text_service {
+    font-family:"Unbounded", cursive;
+    padding: 10px;
+    text-align: justify;
+}
+
+.container #service .text_service p{
+    font-size: larger;
+}
+
+.container #service .text_service h1{
+    color:red;
+}
+
+/* Contact */
+
+.container #contact  {
+    background-color: red;
+    padding: 10px;
+    flex-wrap: wrap;
+    font-family:"Unbounded", cursive;
+    color:#FEFBE9;
+}
+
+.container #contact .adjustments{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container #contact .adjustments .contact_left{
+    width: 55%;
+}
+
+.container #contact .adjustments .contact_right{
+    width: 45%;
+    margin-left: 5%;
+}
+
+.container #contact .adjustments .contact_left , .contact_right{
+    text-align: justify;
+    font-size: larger
+}
+
+.container .contact_left h2{
+    color: #FEFBE9;
+}
+
+.container #contact .adjustments .contact_left i{
+    color:#FEFBE9;
+}
+
+.contact_right form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .contact_right form input,textarea{
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 12px;
+}
+
+.container .contact_right form .btn{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: lightcoral;
+    color: #FEFBE9;
+    font-family:"Unbounded", cursive;
+    font-weight: bold;
+    border-color: #FEFBE9;
+}
+
+
+
+
+/* copyright footer */
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #E8E2E2
+    font-weight: 300;
+    color:  #FFB100;
+    font-weight: bold;
+}
+.copyright i{
+    color: red;
+}
