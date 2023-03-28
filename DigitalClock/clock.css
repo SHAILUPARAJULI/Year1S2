@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub {
+    
+    padding: 30px;
+    height: 30vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+#hour, #minute, #second,span {
+    padding: 15px;
+    border-radius: 5px;
+    font-size:250px ;
+    color: purple;
+
+}
